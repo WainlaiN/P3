@@ -1,0 +1,47 @@
+.header
+{
+background: url(../../images/fond.jpg);
+height: 1000px;
+background-size: cover;
+background-position: center;
+}
+
+.main-title{
+color:white;
+text-transform: uppercase;
+font-weight: 700;
+
+}
+
+.contenu{
+  padding-top: 15%
+}
+
+.logo{
+  size: 50%;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  padding-left: 25px;
+  font-size: 18px;
+
+}
+
+.img-fluid{
+  height:500px;
+  width: 350px;
+}
+
+.center-pills {
+    display: flex;
+    justify-content:space-around;
+}
+
+.films-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff;
+}
