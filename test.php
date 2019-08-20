@@ -1,414 +1,541 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <title>Les films de Plein Air </title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- integration affichage mobile -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- integration CSS bootstrap -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-    <!-- integration CSS style perso -->
-    <link href="bootstrap/css/style.css" rel="stylesheet">
-    <!--<link href="bootstrap/css/tuto.css" rel="stylesheet"> -->
-    
-  </head>
+<head>
+  <title>Les films de Plein Air </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- integration affichage mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- integration CSS bootstrap -->
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+  <!-- integration CSS style perso -->
+  <link href="bootstrap/css/style.css" rel="stylesheet">
+  <!--integration font -->
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  
+</head>
 
-  <body>
+<body>
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/logo.svg" width="374px" height="50px" alt="Logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/logocinema.png" width="60px" height="60px" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#films">Les Films</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#festival">Le Festival</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Réserver vos places !</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contactez-nous</a>
-            </li>
-          </ul>
-          
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#films">Les Films</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#festival">Le Festival</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#actu">Actualités</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reservation">Réserver vos places !</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contactez-nous</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="contenu">
+            <h1 class="display-1">Les Films de Plein Air</h1>
+            <a href="#films" class="btn btn btn-light btn-xl text-uppercase">Les Films</a>
+          </div>
         </div>
-        </div>
-    </nav>
+      </div>
+    </div>
+  </header>
 
-     <!-- Header -->
-    <header class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="contenu">
-              <h1 class="main-title">Les Films de Plein Air</h1>
-              <a href="" class="btn btn-success btn-lg">Les Films</a>
+  <!-- A propos -->
+  <section id="apropos">
+    <div class="container">
+      <div class="row jumbotron">
+        <div class="col-md-12 text-center">
+          <h2 class="section-heading text-uppercase">Qui sommes-nous ?</h2>
+          <h3 class="section-subheading text-muted">L'association "Les Films de Plein Air"</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-justify">
+          <p>Créée en janvier 2019, l'association Films de Plein Air regroupe des passionnés de films d'auteur.<br>
+            Nous avons pour but de faire découvrir l'univers du cinéma d'auteur. C'est par ce biais que nous avons noué un partenariat avec la Mairie du 8ème arrondissement à Paris, qui nous met à disposition le parc Monceau à l'occasion du festival "Films de Plein Air" que nous développons.<br>
+            Depuis de nombreuses années, nous organisons des événements autour du cinéma d'auteur.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Festival -->
+  <section id="festival">
+    <div class="container">
+      <div class="row jumbotron">
+        <div class="col-md-12 text-center">
+          <h2 class="section-heading text-uppercase">Le festival</h2>
+          <h3 class="section-subheading text-muted">Edition 2019 : du 5 au 8 août 2019</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-justify">
+          <p><strong>Bienvenue au festival des films de plein air !</strong><br>
+            Pour cette <strong>première édition</strong> du festival, nous vous proposons de découvrir des <strong>films d'auteur grand public</strong> ! Vous pourrez assister au sein du <strong>Parc Monceau</strong>, en plein air, à la projection de films français ou américains, qui vous plongeront dans l'univers de chaque réalisateur.<br>
+            C'est pourquoi nous vous proposons du <strong>5 au 8 août 2019</strong> des projections sur un écran gonflable de 10 mètres de hauteur en plein cœur du parc Monceau, à Paris. Vous pourrez donc nous y rejoindre seul, entre amis, en famille, pour des séances à la tombée de la nuit, confortablement installés sur un transat ou allongé dans l'herbe.<br>
+            Toutes les projections de films commencent à 18 h, et durent jusqu'à minuit, entrecoupées de pauses repas grâce aux stands qui seront mis à votre disposition.<br>
+            Merci de vous pré-inscrire pour que nous puissions jauger le nombre de participants !<br>
+            <strong>À très bientôt !</strong>
+          </p>
+        </div>
+      </div>  
+    </div>
+  </section>
+
+
+  <!-- Films -->
+  <section id="films">
+    <div class="container">
+      <div class="row jumbotron">
+        <div class="col-md-12 text-center">
+          <h2 class="section-heading text-uppercase">Les films</h2>
+          <h3 class="section-subheading text-muted">Les films sélectionnés &amp; les séances</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- Nav pills -->
+          <nav class="nav nav-pills center-pills" id="myTab">
+            <a class="nav-item nav-link active show" href="#p1" data-toggle="pill" id="5aout-tab">5 août 2019</a>
+            <a class="nav-item nav-link" href="#p2" data-toggle="pill" id="6aout-tab">6 août 2019</a>
+            <a class="nav-item nav-link" href="#p3" data-toggle="pill" id="7aout-tab">7 août 2019</a>
+            <a class="nav-item nav-link" href="#p4" data-toggle="pill" id="8aout-tab">8 août 2019</a>
+          </nav>
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane active show" id="p1">
+              <!---------- Affichage des films du 5 août 2019 ---------->
+              <div class="row">
+                <div class="col-md-4 col-sm-12 films-item md-auto">       <!-- FILM 1 LA FAVORITE -->
+                  <a class="films-link" data-toggle="modal" href="#filmsModal1">
+                    <img class="img-fluid" src="images/favorite.jpg" alt="">
+                  </a>
+                  <div class="films-caption">
+                    <h4>La Favorite</h4>
+                    <p class="text-muted">De : Yorgos Lanthimos<br>Durée : 1h 59min<br><span class="badge badge-pill badge-primary">Comédie dramatique</span> <span class="badge badge-pill badge-primary">Romance</span><br>
+                      <span class="badge badge-seance badge-primary">Projection à 18h00</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 2 DOULEUR ET GLOIRE -->
+                  <a class="films-link" data-toggle="modal" href="#filmsModal2">
+                    <img class="img-fluid" src="images/douleuretgloire.jpg" alt="">
+                  </a>
+                  <div class="films-caption">
+                    <h4>Douleur et gloire</h4>
+                    <p class="text-muted">De : Pedro Almodóvar<br>Durée : 1h 52min<br><span class="badge badge-pill badge-primary">Comédie dramatique</span> <span class="badge badge-pill badge-primary">Dramatique</span><br>
+                      <span class="badge badge-seance badge-primary">Projection à 20h00</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 3 LES OISEAUX DE PASSAGE -->
+                  <a class="films-link" data-toggle="modal" href="#filmsModal3">
+                    <img class="img-fluid" src="images/oiseaux.jpg" alt="">
+                  </a>
+                  <div class="films-caption">
+                    <h4>Les Oiseaux de passage</h4>
+                    <p class="text-muted">De : Ciro Guerra<br>Durée : 2h 05min<br><span class="badge badge-pill badge-primary">Drame</span> <span class="badge badge-pill badge-primary">Policier</span><br>
+                      <span class="badge badge-seance badge-primary">Projection à 22h00</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="p2">
+              <!---------- Affichage des films du 6 août 2019 ---------->
+              <div class="row">
+                <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 4 LES ETERNELS -->
+                  <a class="films-link" data-toggle="modal" href="#filmsModal4">
+                    <img class="img-fluid" src="images/eternels.jpg" alt="">
+                  </a>
+                  <div class="films-caption">
+                    <h4>Les Eternels</h4>
+                    <p class="text-muted">De : Jia Zhangke<br>Durée : 2h 15min<br><span class="badge badge-pill badge-primary">Drame</span> <span class="badge badge-pill badge-primary">Biopic</span> <span class="badge badge-pill badge-primary">Policier</span><br>
+                      <span class="badge badge-seance badge-primary">Projection à 18h00</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 5 AN ELEPHANY SITTING STILL -->
+                  <a class="films-link" data-toggle="modal" href="#filmsModal5">
+                    <img class="img-fluid" src="images/elephant.jpg" alt="">
+                  </a>
+                  <div class="films-caption">
+                    <h4>An Elephant sitting still</h4>
+                    <p class="text-muted">De : Hu Bo<br>Durée : 3h 50min<br><span class="badge badge-pill badge-primary">Dramatique</span><br>
+                      <span class="badge badge-seance badge-primary">Projection à 20h00</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 6 SIBYL -->
+                  <a class="films-link" data-toggle="modal" href="#filmsModal6">
+                    <img class="img-fluid" src="images/sibyl.jpg" alt="">
+                  </a>
+                  <div class="films-caption">
+                    <h4>Sibyl</h4>
+                    <p class="text-muted">De : Justine Triet<br>Durée : 1h 40min<br><span class="badge badge-pill badge-primary">Dramatique</span> <span class="badge badge-pill badge-primary">Drame</span><br>
+                      <span class="badge badge-seance badge-primary">Projection à 22h00</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="p3">
+              <!---------- Affichage des films du 7 août 2019 ---------->
+              <div class="row">
+                <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 7 TEL AVIV ON FIRE -->
+                  <a class="films-link" data-toggle="modal" href="#filmsModal7">
+                    <img class="img-fluid" src="images/telaviv.jpg" alt="">
+                  </a>
+                  <div class="films-caption">
+                    <h4>Tel Aviv On Fire</h4>
+                    <p class="text-muted">De : Sameh Zoabie<br>Durée : 1h 40min<br><span class="badge badge-pill badge-primary">Comédie musicale</span> <span class="badge badge-pill badge-primary">Comique</span> <span class="badge badge-pill badge-primary">Drame</span> <span class="badge badge-pill badge-primary">Musical</span> <span class="badge badge-pill badge-primary">Fantastique</span><br>
+                      <span class="badge badge-seance badge-primary">Projection à 18h00</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 8 L'ANGE -->
+                  <a class="films-link" data-toggle="modal" href="#filmsModal8">
+                    <img class="img-fluid" src="images/ange.jpg" alt="">
+                  </a>
+                  <div class="films-caption">
+                    <h4>L'Ange</h4>
+                    <p class="text-muted">De : Luis Ortega<br>Durée : 1h59min<br><span class="badge badge-pill badge-primary">Policier</span> <span class="badge badge-pill badge-primary">Aventure</span> <span class="badge badge-pill badge-primary">Action</span> <span class="badge badge-pill badge-primary">Fantastique</span><br>
+                      <span class="badge badge-seance badge-primary">Projection à 20h00</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 9 SIBEL -->
+                  <a class="films-link" data-toggle="modal" href="#filmsModal9">
+                    <img class="img-fluid" src="images/sibel.jpg" alt="">
+                  </a>
+                  <div class="films-caption">
+                    <h4>Sibel</h4>
+                    <p class="text-muted">De : Caola Zencirci<br>Durée : 1h 35min<br><span class="badge badge-pill badge-primary">Dramatique</span><br>
+                      <span class="badge badge-seance badge-primary">Projection à 22h00</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="p4">
+              <!---------- Affichage des films du 8 août 2019 ---------->
+              <div class="row">
+                <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 10 ZOMBI CHILD -->
+                  <a class="films-link" data-toggle="modal" href="#filmsModal10">
+                    <img class="img-fluid" src="images/zombi.jpg" alt="">
+                  </a>
+                  <div class="films-caption">
+                    <h4>Zombi Child</h4>
+                    <p class="text-muted">De : Bertrand Bonello<br>Durée : 1h 43min<br><span class="badge badge-pill badge-primary">Fantastique</span> <span class="badge badge-pill badge-primary">Dramatique</span><br>
+                      <span class="badge badge-seance badge-primary">Projection à 18h00</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 11 LES ETENDUES IMAGINAIRES -->
+                  <a class="films-link" data-toggle="modal" href="#filmsModal11">
+                    <img class="img-fluid" src="images/etendues.jpg" alt="">
+                  </a>
+                  <div class="films-caption">
+                    <h4>Les Étendues imaginaires</h4>
+                    <p class="text-muted">De : Yeo Siew Hua<br>Durée : 1h 35min<br><span class="badge badge-pill badge-primary">Policier</span> <span class="badge badge-pill badge-primary">Dramatique</span><br>
+                      <span class="badge badge-seance badge-primary">Projection à 20h00</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 12 IN MY ROOM -->
+                  <a class="films-link" data-toggle="modal" href="#filmsModal12">
+                    <img class="img-fluid" src="images/room.jpg" alt="">
+                  </a>
+                  <div class="films-caption">
+                    <h4>In My Room</h4>
+                    <p class="text-muted">De : Ulrich Kohler<br>Durée : 2h <br><span class="badge badge-pill badge-primary">Fantastique</span> <span class="badge badge-pill badge-primary">Dramatique</span><br>
+                      <span class="badge badge-primary">Projection à 22h00</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </header>
+    </div>
+  </section>
+  
 
-     <!-- A propos -->
-    <section id="apropos">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2 class="section-heading text-uppercase">Qui sommes-nous ?</h2>
-                        <h3 class="section-subheading text-muted">L'association "Les Films de Plein Air"</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-7 text-justify">
-                        <p>Créée en janvier 2019, l'association Films de Plein Air regroupe des passionnés de films d'auteur.<br>
-                        Nous avons pour but de faire découvrir l'univers du cinéma d'auteur. C'est par ce biais que nous avons noué un partenariat avec la Mairie du 8ème arrondissement à Paris, qui nous met à disposition le parc Monceau à l'occasion du festival "Films de Plein Air" que nous développons.<br>
-                        Depuis de nombreuses années, nous organisons des événements autour du cinéma d'auteur.
-                        </p>
-                    </div>
-                    <div class="col-md-5 my-auto">
-                        <img src="images/logo_asso_ok.PNG" class="img-fluid rounded" alt="Responsive image">
-                    </div>
-                </div>
+  <!-- Actu -->
+  <section id="actu">
+    <div class="container">
+      <div class="row jumbotron">
+        <div class="col-md-12 text-center">
+          <h2 class="section-heading text-uppercase">Actualités</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="d-flex flex-column main-timeline">
+          <div class="p-3">
+            <span class="btn btn-secondary btn-lg">Rencontre</span>
+            <span class="float-right btn btn-primary">27 Juillet 2019</span>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+          </div>
+          <div class="p-3">
+            <span class="btn btn-secondary btn-lg">Découvrez les projections</span>
+            <span class="float-right btn btn-primary">24 Juillet 2019</span>
+            <p class="text-center">Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+          </div>
+          <div class="p-3">
+            <span class="btn btn-secondary btn-lg" >Du cinéma en plein air au Parc Monceau</span>
+            <span class="float-right btn btn-primary">22 Juillet 2019</span>
+            <p class="text-center">Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reservation">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center jumbotron ">
+          <h2 class="section-heading text-uppercase">Reservation</h2>
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Adresse email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
-        </section>
-
-     <!-- Festival -->
-    <section class="bg-light" id="festival">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2 class="section-heading text-uppercase">Le festival</h2>
-                        <h3 class="section-subheading text-muted">Edition 2019 : du 5 au 8 août 2018</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-5 my-auto">
-                        <img src="images/section_festival.jpg" class="img-fluid rounded" alt="Responsive image">
-                    </div>
-                    <div class="col-md-7 text-justify">
-                        <p><strong>Bienvenue au festival des films de plein air !</strong><br>
-                        Pour cette <strong>première édition</strong> du festival, nous vous proposons de découvrir des <strong>films d'auteur grand public</strong> ! Vous pourrez assister au sein du <strong>Parc Monceau</strong>, en plein air, à la projection de films français ou américains, qui vous plongeront dans l'univers de chaque réalisateur.<br>
-                        C'est pourquoi nous vous proposons du <strong>5 au 8 août 2018</strong> des projections sur un écran gonflable de 10 mètres de hauteur en plein cœur du parc Monceau, à Paris. Vous pourrez donc nous y rejoindre seul, entre amis, en famille, pour des séances à la tombée de la nuit, confortablement installés sur un transat ou allongé dans l'herbe.<br>
-                        Toutes les projections de films commencent à 18 h, et durent jusqu'à minuit, entrecoupées de pauses repas grâce aux stands qui seront mis à votre disposition.<br>
-                        Merci de vous pré-inscrire pour que nous puissions jauger le nombre de participants !<br>
-                        <strong>À très bientôt !</strong>
-                        </p>
-                    </div>
-                </div>  
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Nombre de personnes</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
             </div>
-        </section>
+            <div class="form-group">
+              <label for="seance">Séances</label>
+              <select class="form-control" required="" name="seance" id="seance">
+                <option value="" selected="" disabled="">Ma Séance</option>
+                <optgroup label="05/08/19">
+                  <option value="18h30">18h30 - La Favorite</option>
+                  <option value="20h30">20h30 - Douleur et Gloire</option>
+                  <option value="22h30">22h30 - Les Oiseaux de passage</option>
+                </optgroup>
+                <optgroup label="06/08/19">
+                  <option value="18h30">18h30 - Les Eternels</option>
+                  <option value="20h30">20h30 - An Elephant sitting still</option>
+                  <option value="22h30">22h30 - Sibyl</option>
+                </optgroup>
+                <optgroup label="07/08/19">
+                  <option value="18h30">18h30 - Tel Aviv On Fire</option>
+                  <option value="20h30">20h30 - L'Ange</option>
+                  <option value="22h30">22h30 - Sibel</option>
+                </optgroup>
+                <optgroup label="08/08/19">
+                  <option value="18h30">18h30 - Zombi Child</option>
+                  <option value="20h30">20h30 - Les Étendues imaginaires</option>
+                  <option value="22h30">22h30 - In My Room</option>
+                </optgroup>
+              </select>
+              <div class="invalid-tooltip">
+                Merci de choisir votre séance.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Informations complémentaire</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom btn-primary">Je réserve !</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
-    <!-- Films -->
-    <section class="bg-light" id="films">
-            <!------------------------------------------------------------------------------ PRESENTATION DES FILMS VERSION 1 : SIMPLE ------------------------------------------------------------------------------------>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2 class="section-heading text-uppercase">Les films</h2>
-                        <h3 class="section-subheading text-muted">Les films sélectionnés &amp; les séances</h3>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-lg-12">
-                        <!-- Nav pills -->
-                        <nav class="nav nav-pills center-pills" id="myTab">
-                            <a class="nav-item nav-link active show" href="#p1" data-toggle="pill" id="5aout-tab">5 août 2019</a>
-                            <a class="nav-item nav-link" href="#p2" data-toggle="pill" id="6aout-tab">6 août 2019</a>
-                            <a class="nav-item nav-link" href="#p3" data-toggle="pill" id="7aout-tab">7 août 2019</a>
-                            <a class="nav-item nav-link" href="#p4" data-toggle="pill" id="8aout-tab">8 août 2019</a>
-                        </nav>
-                        <!-- Tab panes -->
-                        <div class="tab-content">
-                            <div class="tab-pane active show" id="p1">
-                                <!---------- Affichage des films du 5 août 2019 ---------->
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 1 LA FAVORITE -->
-                                        <a class="films-link" data-toggle="modal" href="#filmsModal1">
-                                            <img class="img-fluid" src="images/favorite.jpg" alt="">
-                                        </a>
-                                        <div class="films-caption">
-                                            <h4>La Favorite</h4>
-                                            <p class="text-muted">De : Yorgos Lanthimos<br>Durée : 1h 59min<br><span class="badge badge-pill badge-primary">Comédie dramatique</span> <span class="badge badge-pill badge-primary">Romance</span><br>
-                                                <span class="badge badge-seance badge-primary">Projection à 18h00</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 2 DOULEUR ET GLOIRE -->
-                                        <a class="films-link" data-toggle="modal" href="#filmsModal2">
-                                            <img class="img-fluid" src="images/douleuretgloire.jpg" alt="">
-                                        </a>
-                                        <div class="films-caption">
-                                            <h4>Douleur et gloire</h4>
-                                            <p class="text-muted">De : Pedro Almodóvar<br>Durée : 1h 52min<br><span class="badge badge-pill badge-primary">Comédie dramatique</span> <span class="badge badge-pill badge-primary">Dramatique</span><br>
-                                                <span class="badge badge-seance badge-primary">Projection à 20h00</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 3 LES OISEAUX DE PASSAGE -->
-                                        <a class="films-link" data-toggle="modal" href="#filmsModal3">
-                                          <img class="img-fluid" src="images/oiseaux.jpg" alt="">
-                                        </a>
-                                        <div class="films-caption">
-                                            <h4>Les Oiseaux de passage</h4>
-                                            <p class="text-muted">De : Ciro Guerra<br>Durée : 2h 05min<br><span class="badge badge-pill badge-primary">Drame</span> <span class="badge badge-pill badge-primary">Policier</span><br>
-                                                <span class="badge badge-seance badge-primary">Projection à 22h00</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="p2">
-                                <!---------- Affichage des films du 6 août 2019 ---------->
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 4 LES ETERNELS -->
-                                        <a class="films-link" data-toggle="modal" href="#filmsModal4">
-                                            <img class="img-fluid" src="images/eternels.jpg" alt="">
-                                        </a>
-                                        <div class="films-caption">
-                                            <h4>Les Eternels</h4>
-                                            <p class="text-muted">De : Jia Zhangke<br>Durée : 2h 15min<br><span class="badge badge-pill badge-primary">Drame</span> <span class="badge badge-pill badge-primary">Biopic</span> <span class="badge badge-pill badge-primary">Policier</span><br>
-                                                <span class="badge badge-seance badge-primary">Projection à 18h00</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 5 AN ELEPHANY SITTING STILL -->
-                                        <a class="films-link" data-toggle="modal" href="#filmsModal5">
-                                            <img class="img-fluid" src="images/elephant.jpg" alt="">
-                                        </a>
-                                        <div class="films-caption">
-                                            <h4>An Elephant sitting still</h4>
-                                            <p class="text-muted">De : Hu Bo<br>Durée : 3h 50min<br><span class="badge badge-pill badge-primary">Dramatique</span><br>
-                                                <span class="badge badge-seance badge-primary">Projection à 20h00</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 6 SIBYL -->
-                                        <a class="films-link" data-toggle="modal" href="#filmsModal6">
-                                            <img class="img-fluid" src="images/sibyl.jpg" alt="">
-                                        </a>
-                                        <div class="films-caption">
-                                            <h4>Sibyl</h4>
-                                            <p class="text-muted">De : Justine Triet<br>Durée : 1h 40min<br><span class="badge badge-pill badge-primary">Dramatique</span> <span class="badge badge-pill badge-primary">Drame</span><br>
-                                                <span class="badge badge-seance badge-primary">Projection à 22h00</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="p3">
-                                <!---------- Affichage des films du 7 août 2019 ---------->
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 7 TEL AVIV ON FIRE -->
-                                        <a class="films-link" data-toggle="modal" href="#filmsModal7">
-                                            <img class="img-fluid" src="images/telaviv.jpg" alt="">
-                                        </a>
-                                        <div class="films-caption">
-                                            <h4>Tel Aviv On Fire</h4>
-                                            <p class="text-muted">De : Sameh Zoabie<br>Durée : 1h 40min<br><span class="badge badge-pill badge-primary">Comédie musicale</span> <span class="badge badge-pill badge-primary">Comique</span> <span class="badge badge-pill badge-primary">Drame</span> <span class="badge badge-pill badge-primary">Musical</span> <span class="badge badge-pill badge-primary">Fantastique</span><br>
-                                                <span class="badge badge-seance badge-primary">Projection à 18h00</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 8 L'ANGE -->
-                                        <a class="films-link" data-toggle="modal" href="#filmsModal8">
-                                            <img class="img-fluid" src="images/ange.jpg" alt="">
-                                        </a>
-                                        <div class="films-caption">
-                                            <h4>L'Ange</h4>
-                                            <p class="text-muted">De : Luis Ortega<br>Durée : 1h59min<br><span class="badge badge-pill badge-primary">Policier</span> <span class="badge badge-pill badge-primary">Aventure</span> <span class="badge badge-pill badge-primary">Action</span> <span class="badge badge-pill badge-primary">Fantastique</span><br>
-                                                <span class="badge badge-seance badge-primary">Projection à 20h00</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 9 SIBEL -->
-                                        <a class="films-link" data-toggle="modal" href="#filmsModal9">
-                                            <img class="img-fluid" src="images/sibel.jpg" alt="">
-                                        </a>
-                                        <div class="films-caption">
-                                            <h4>Sibel</h4>
-                                            <p class="text-muted">De : Caola Zencirci<br>Durée : 1h 35min<br><span class="badge badge-pill badge-primary">Dramatique</span><br>
-                                                <span class="badge badge-seance badge-primary">Projection à 22h00</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="p4">
-                                <!---------- Affichage des films du 8 août 2019 ---------->
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 10 ZOMBI CHILD -->
-                                        <a class="films-link" data-toggle="modal" href="#filmsModal10">
-                                            <img class="img-fluid" src="images/zombi.jpg" alt="">
-                                        </a>
-                                        <div class="films-caption">
-                                            <h4>Zombi Child</h4>
-                                            <p class="text-muted">De : Bertrand Bonello<br>Durée : 1h 43min<br><span class="badge badge-pill badge-primary">Fantastique</span> <span class="badge badge-pill badge-primary">Dramatique</span><br>
-                                                <span class="badge badge-seance badge-primary">Projection à 18h00</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 11 LES ETENDUES IMAGINAIRES -->
-                                        <a class="films-link" data-toggle="modal" href="#filmsModal11">
-                                            <img class="img-fluid" src="images/etendues.jpg" alt="">
-                                        </a>
-                                        <div class="films-caption">
-                                            <h4>Les Étendues imaginaires</h4>
-                                            <p class="text-muted">De : Yeo Siew Hua<br>Durée : 1h 35min<br><span class="badge badge-pill badge-primary">Policier</span> <span class="badge badge-pill badge-primary">Dramatique</span><br>
-                                                <span class="badge badge-seance badge-primary">Projection à 20h00</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-12 films-item">       <!-- FILM 12 IN MY ROOM -->
-                                        <a class="films-link" data-toggle="modal" href="#filmsModal12">
-                                            <img class="img-fluid" src="images/room.jpg" alt="">
-                                        </a>
-                                        <div class="films-caption">
-                                            <h4>In My Room</h4>
-                                            <p class="text-muted">De : Ulrich Kohler<br>Durée : 2h <br><span class="badge badge-pill badge-primary">Fantastique</span> <span class="badge badge-pill badge-primary">Dramatique</span><br>
-                                                <span class="badge badge-seance badge-primary">Projection à 22h00</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
+</form>
+
+<!-- Film modal -->
+<div class="films-modal modal fade" id="filmsModal1" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">La Favorite</h2>
+              <p class="item-intro text-muted">Synopsis et détails</p>
+              <img class="img-fluid d-block mx-auto" src="images/favorite.jpg" alt="">
+              <p class="text-justify">Réalisé par Yorgos Lanthimos (Mise à mort du cerf sacré, The lobster), La Favorite est un film historique entre comédie très noire et film d'auteur. Lauréat du Lion d'argent à la Mostra de Venise, il a permis à l'actrice Olivia Colman de remporter le Golden Globe 2019 de la meilleure actrice, et la Coupe Volpi à Venise également. Elle incarne ici la Reine Anne, dans la campagne britannique du XVIIIe siècle, alors que rivalités, décadence et catastrophes burlesques se succèdent autour d'elle. Classé par beaucoup parmi les meilleurs films 2019, le film met aussi en vedette Rachel Weisz (Désobéissance) et Emma Stone (La La Land).</p>
+              <ul class="list-inline films-caption">
+                <li class="text-muted">De : Yorgos Lanthimos</li>
+                <li class="text-muted">Durée : 1h 59min</li>
+                <li><span class="badge badge-pill badge-primary">Comédie</span> <span class="badge badge-pill badge-primary">Romance</span></li>
+              </ul>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">Fermer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Mention légale modal -->
+<div class="modal fade" id="mentions" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Mentions Légales</h2>
+              <div class="pf-content"><p style="text-align: justify;">Conformément aux dispositions des articles 6-III et 19 de la Loi n° 2004-575 du 21 juin 2004 pour la Confiance dans l’économie numérique, dite L.C.E.N., nous portons à la connaissance des utilisateurs et visiteurs du site : <a href="http://www.festivalpleinair.org" target="_blank" rel="noopener">www.festivalpleinair.orgg</a> les informations suivantes :</p>
+                <p style="text-align: justify;"><strong>1. Informations légales :</strong></p>
+                <p style="text-align: justify;">Statut du propriétaire : <strong>particulier</strong><br>
+                  Le Propriétaire est : <strong>Nicolas Dupriez</strong><br>
+                  Adresse postale du propriétaire : <strong>46 avenue Émilie de Villeneuve 81100 Castres</strong></p>
+                  <p>Le Créateur du site est : <strong>Nicolas Dupriez</strong><br>
+                    Le Responsable de la publication est : <strong>Nicolas Dupriez</strong><br>
+                    Contacter le responsable de la publication : <strong>nicolas@free.fr</strong><br>
+                    Le responsable de la publication est une<strong> personne physique</strong></p>
+                    <p>Le Webmaster est : <strong>Nicolas Dupriez</strong><br>
+                      Contacter le Webmaster : <strong><a href="mailto:nicolas@free.fr?subject=Contact a partir des mentions lÃ©gales via le site www.festivalpleinair.org">nicolas@free.fr</a></strong><br>
+                      L’hebergeur du site est : <strong>O2switch 222-224 Boulevard Gustave Flaubert 63000 Clermont-Ferrand</strong><br>
+                      <strong><u>CREDIT :</u> </strong> Les mentions légales ont été générées par<strong> <a href="https://www.generer-mentions-legales.com/generateur-mentions-legales.html" target="_blank" rel="noopener">générateur de mentions legales</a></strong></p>
+                      <p style="text-align: justify;"><strong>2. Présentation et principe :</strong></p>
+                      <p style="text-align: justify;">Est désigné ci-après : <strong>Utilisateur</strong>, tout internaute se connectant et utilisant le site susnommé : <a href="http://www.festivalpleinair.org" target="_blank" rel="noopener">www.festivalpleinair.org</a>.<br>
+                        Le site <strong>www.festivalpleinair.org</strong> regroupe un ensemble de services, dans l’état, mis à la disposition des utilisateurs. Il est ici précisé que ces derniers doivent rester courtois et faire preuve de bonne foi tant envers les autres utilisateurs qu’envers le webmaster du site www.festivalpleinair.org. Le site www.festivalpleinair.org est mis à jour régulièrement par Nicolas Dupriez.<br>
+                      Nicolas Dupriez s’efforce de fournir sur le site www.festivalpleinair.org des informations les plus précises possibles (sous réserve de modifications apportées depuis leur mise en ligne), mais ne saurait garantir l’exactitude, la complétude et l’actualité des informations diffusées sur son site, qu’elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations. En conséquence, l’utilisateur reconnaît utiliser ces informations données (à titre indicatif, non exhaustives et susceptibles d’évoluer) sous sa responsabilité exclusive.</p>
+                      <p style="text-align: justify;"><strong>3. Accessibilité :</strong></p>
+                      <p>Le site www.festivalpleinair.org est par principe accessible aux utilisateurs 24/24h, 7/7j, sauf interruption, programmée ou non, pour les besoins de sa maintenance ou en cas de force majeure. En cas d’impossibilité d’accès au service, www.festivalpleinair.org s’engage à faire son maximum afin de rétablir l’accès au service et s’efforcera alors de communiquer préalablement aux utilisateurs les dates et heures de l’intervention. N’étant soumis qu’à une obligation de moyen, www.festivalpleinair.org ne saurait être tenu pour responsable de tout dommage, quelle qu’en soit la nature, résultant d’une indisponibilité du service.</p>
+                      <p style="text-align: justify;"><strong>4. Propriété intellectuelle :</strong></p>
+                      <p style="text-align: justify;">Nicolas Dupriez est propriétaire exclusif de tous les droits de propriété intellectuelle ou détient les droits d’usage sur tous les éléments accessibles sur le site, tant sur la structure que sur les textes, images, graphismes, logo, icônes, sons, logiciels…<br>
+                      Toute reproduction totale ou partielle du site www.festivalpleinair.orgg, représentation, modification, publication, adaptation totale ou partielle de l’un quelconque de ces éléments, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de Nicolas Dupriez, propriétaire du site à l’email : nicolas@free.fr, à défaut elle sera considérée comme constitutive d’une contrefaçon et passible de poursuite conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.</p>
+                      <p style="text-align: justify;"><strong>5. Liens hypertextes et cookies :</strong></p>
+                      <p>Le site www.festivalpleinair.org contient un certain nombre de liens hypertextes vers d’autres sites (partenaires, informations …) mis en place avec l’autorisation de Nicolas Dupriez. Cependant, Nicolas Dupriez n’a pas la possibilité de vérifier l’ensemble du contenu des sites ainsi visités et décline donc toute responsabilité de ce fait quand aux risques éventuels de contenus illicites.<br>
+                        L’utilisateur est informé que lors de ses visites sur le site www.festivalpleinair.org, un ou des cookies sont susceptibles de s’installer automatiquement sur son ordinateur par l’intermédiaire de son logiciel de navigation. Un cookie est un bloc de données qui ne permet pas d’identifier l’utilisateur, mais qui enregistre des informations relatives à la navigation de celui-ci sur le site.<br>
+                        Le paramétrage du logiciel de navigation permet d’informer de la présence de cookie et éventuellement, de la refuser de la manière décrite à l’adresse suivante : <a href="http://www.cnil.fr">www.cnil.fr</a>. L’utilisateur peut toutefois configurer le navigateur de son ordinateur pour refuser l’installation des cookies, sachant que le refus d’installation d’un cookie peut entraîner l’impossibilité d’accéder à certains services. Pour tout bloquage des cookies, tapez dans votre moteur de recherche : bloquage des cookies sous IE ou firefox et suivez les instructions en fonction de votre version.</p>
+                        <p style="text-align: justify;"><strong>6. Protection des biens et des personnes – gestion des données personnelles :</strong></p>
+                        <p>En France, les données personnelles sont notamment protégées par la loi n° 78-87 du 6 janvier 1978, la loi n° 2004-801 du 6 août 2004, l’article L. 226-13 du Code pénal et la Directive Européenne du 24 octobre 1995.</p>
+                        <p style="text-align: justify;">Sur le site www.festivalpleinair.org, Nicolas Dupriez ne collecte des informations personnelles ( suivant l’article 4 loi n°78-17 du 06 janvier 1978) relatives à l’utilisateur que pour le besoin de certains services proposés par le site www.festivalpleinair.org. L’utilisateur fournit ces informations en toute connaissance de cause, notamment lorsqu’il procède par lui-même à leur saisie. Il est alors précisé à l’utilisateur du site www.festivalpleinair.orgg l’obligation ou non de fournir ces informations.<br>
+                          Conformément aux dispositions des articles 38 et suivants de la loi 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, tout utilisateur dispose d’un droit d’accès, de rectification, de suppression et d’opposition aux données personnelles le concernant. Pour l’exercer, adressez votre demande à www.festivalpleinair.org par email : <strong><a href="mailto:nicolas@free.fr?subject=Contact ï¿½ partir des mentions lï¿½gales via le site www.festivalpleinair.org">nicolas@free.fr</a></strong> ou par écrit dûment signée, accompagnée d’une copie du titre d’identité avec signature du titulaire de la pièce, en précisant l’adresse à laquelle la réponse doit être envoyée.</p>
+                          <p style="text-align: justify;">Aucune information personnelle de l’utilisateur du site www.festivalpleinair.org n’est publiée à l’insu de l’utilisateur, échangée, transférée, cédée ou vendue sur un support quelconque à des tiers. Seule l’hypothèse du rachat du site www.festivalpleinair.org et de ses droits autorise Nicolas Dupriez à transmettre les dites informations à l’éventuel acquéreur qui serait à son tour tenu à la même obligation de conservation et de modification des données vis à vis de l’utilisateur du site www.festivalpleinair.org.<br>
+                            Le site www.festivalpleinair.org est en conformité avec le RGPD, voir <a href="https://laravel.sillo.org/politique-de-confidentialite/">notre politique RGPD</a>.</p>
+                            <p style="text-align: justify;">Les bases de données sont protégées par les dispositions de la loi du 1er juillet 1998 transposant la directive 96/9 du 11 mars 1996 relative à la protection juridique des bases de données.</p>
+                            
+                          </div>
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
 
 
-
-     <!-- Actu -->
-    <section id="actu">
-            <div class="container">
+            <footer class="container-fluid footer jumbotron" id="contact">
+              <div class="container py-3">
                 <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading text-uppercase">Actualités</h2>
-                        <h3 class="section-subheading text-muted">Les dernières nouvelles</h3>
+                  <div class="col-12 col-md-4">
+                    <h2>Liens utiles</h2>
+                    <div class="footerLinks">
+                      <a href="index.html">Accueil</a>
+                      <a href="films.html">Les Films</a>
+                      <a href="blog.html">Actualités</a>
+                      <a href="contact.html">Contact</a>
+                      <a data-toggle="modal" href="#mentions">Mentions légales</a>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <ul class="timeline">
-                            <li>
-                                <div class="timeline-image">
-                                    <h4>30<br>juillet<br>2018</h4>
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>Nous avons reçu l'écran gonflable</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                    </div>
-                                </div>
+                  </div>
+                  <div class="col-12 col-md-4 address">
+                    <h2>Contactez-nous</h2>
+                    <div class="contactIcons mb-3">
+                      <p><span class="pr-3"><i class="fas fa-home"></i></span> 310 chemin des assos, 75000 Paris</p>
+                      <p><span class="pr-3"><i class="fas fa-envelope"></i></span> contact@filmsdepleinair.org</p>
+                      <p><span class="pr-3"><i class="fas fa-phone"></i></span> 06 11 22 33 44</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4 social">
+                    <h2>Suivez-nous !</h2>
+                    <div class="socialicons">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+              <div class="col-md-4">
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fab fa-twitter"></i> -->
+                                </a>
                             </li>
-                            <li class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <h4>7<br>juin<br>2018</h4>
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>Inscrivez-vous dès maintenant</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                    </div>
-                                </div>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <svg class="svg-inline--fa fa-facebook-f fa-w-9" aria-hidden="true" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" data-fa-i2svg=""><path fill="currentColor" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"></path></svg><!-- <i class="fab fa-facebook-f"></i> -->
+                                </a>
                             </li>
-                            <li>
-                                <div class="timeline-image">
-                                    <h4>14<br>mai<br>2018</h4>
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>Découvrez les projections</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <h4>26<br>avril<br>2018</h4>
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>Du cinéma en plein air au Parc Monceau</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <h4>Début<br>de<br>l'aventure !</h4>
-                                </div>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg><!-- <i class="fab fa-instagram"></i> -->
+                                </a>
                             </li>
                         </ul>
                     </div>
-                </div>
-            </div>
-        </section>
+            </footer>
 
-    <!-- Film modal -->
-    <div class="films-modal modal fade" id="filmsModal1" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8 mx-auto">
-                                <div class="modal-body">
-                                    <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Minuit à Paris</h2>
-                                    <p class="item-intro text-muted">Synopsis et détails</p>
-                                    <img class="img-fluid d-block mx-auto" src="images/affiche_minuit_a_paris.jpg" alt="">
-                                    <p class="text-justify">Un jeune couple d’américains dont le mariage est prévu à l’automne se rend pour quelques jours à Paris. La magie de la capitale ne tarde pas à opérer, tout particulièrement sur le jeune homme amoureux de la Ville-lumière et qui aspire à une autre vie que la sienne.</p>
-                                    <ul class="list-inline films-caption">
-                                        <li class="text-muted">De : Woody Allen</li>
-                                        <li class="text-muted">Durée : 1h 34min</li>
-                                        <li><span class="badge badge-pill badge-primary">Comédie</span> <span class="badge badge-pill badge-primary">Romance</span></li>
-                                    </ul>
-                                    <button class="btn btn-primary" data-dismiss="modal" type="button"><svg class="svg-inline--fa fa-times fa-w-11" aria-hidden="true" data-prefix="fa" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" data-fa-i2svg=""><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg><!-- <i class="fa fa-times"></i> --> Fermer</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-    
-      
-  <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
-  </body>
-</html>
+
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+          </body>
+          </html>

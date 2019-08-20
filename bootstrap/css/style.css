@@ -1,20 +1,27 @@
 .header
 {
-background: url(../../images/fond.jpg);
-height: 1000px;
-background-size: cover;
-background-position: center;
+  background: url(../../images/festiva2.jpg);
+  height: 1000px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
 }
 
 .main-title{
-color:white;
-text-transform: uppercase;
-font-weight: 700;
+  color:white;
+  text-transform: uppercase;
+  font-weight: 700;
 
 }
 
 .contenu{
-  padding-top: 15%
+  padding-top: 15%;
+  
+}
+
+.display-1{
+  font-family: 'Pacifico', cursive;
+  color:white;
 }
 
 .logo{
@@ -28,20 +35,55 @@ font-weight: 700;
 
 }
 
-.img-fluid{
-  height:500px;
-  width: 350px;
+.img-fluid {
+  
+  max-width: 100%;
+  height: auto;
 }
 
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+
+
+
 .center-pills {
-    display: flex;
-    justify-content:space-around;
+  display: flex;
+  justify-content:space-around;
 }
 
 .films-caption {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 25px;
-    text-align: center;
-    background-color: #fff;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
 }
+
+#apropos{
+  padding-top: 20px;
+}
+
+#festival{
+  padding-top: 20px;
+}
+
+#films .nav-pills {
+  font-weight: 700;
+  font-size: 15px;
+  margin: 20px 0px 20px 0px;
+  box-shadow: 0 0 black;
+}
+
+.img-thumbnail {
+  display: inline-block;
+}
+
+#films {
+  padding-top: 20px;
+}
+
+
+
