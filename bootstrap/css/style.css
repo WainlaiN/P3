@@ -14,40 +14,37 @@
 
 }
 
-.contenu{
-  padding-top: 15%;
-  
+.contenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .display-1{
   font-family: 'Pacifico', cursive;
   color:white;
+  text-shadow: 2px 3px 3px black;
+
 }
 
-.logo{
-  size: 50%;
-}
 
 .nav-item {
   text-transform: uppercase;
   padding-left: 25px;
   font-size: 18px;
-
 }
 
 .img-fluid {
-  
+
   max-width: 100%;
   height: auto;
+  max-height: 460px;
 }
 
-img {
-  vertical-align: middle;
-  border-style: none;
+.img-fluid:hover{
+  opacity: 0.7;
 }
-
-
-
 
 .center-pills {
   display: flex;
@@ -63,11 +60,13 @@ img {
 }
 
 #apropos{
-  padding-top: 20px;
+
+
 }
 
-#festival{
-  padding-top: 20px;
+.text  {
+  font-size: 15px;
+  padding: 15px;
 }
 
 #films .nav-pills {
@@ -77,13 +76,175 @@ img {
   box-shadow: 0 0 black;
 }
 
-.img-thumbnail {
-  display: inline-block;
+
+#films .films-item .films-link {
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  cursor: pointer;
 }
 
-#films {
-  padding-top: 20px;
+.banniere{
+  background: url(../../images/banniere.jpg) no-repeat center;
+  background-size: cover;
+  height: 400px;
+  
 }
+
+.banniere2{
+  background: url(../../images/banniere2.jpg) no-repeat center;
+  background-size: cover;
+  height: 400px;
+  
+}
+
+.container .jumbotron {
+  border-radius: 10px ;
+  padding:5px;
+}
+
+.section-heading {
+  padding:10px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 3px 3px white;
+  font-size: 45px;
+
+}
+
+
+#films .badge-pill .seance-badge {
+  background-color: #f0b65d;
+  border-color: #f0b65d;
+}
+
+
+
+.flexitem {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  border:1px solid #ccc;
+  margin: 20px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.flexitem__date {
+  order: 1;
+  width: auto;
+  padding:5px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+  background-color: grey;
+  border-radius: 10px ;
+}
+
+.flexitem__image {
+  order: 3;
+  padding: 5px;
+}
+
+.flexitem__image:hover {
+  opacity: 0.7;
+}
+
+
+.flexitem__desc {
+  order: 2;
+  width: 50%;
+  padding: 5px;
+  display: flex;
+  flex-direction:column;
+  align-content:center;
+}
+
+.imageactu {
+  background-size: cover;
+  width: 300px;
+  height:200px;
+  
+}
+
+@media (max-width: 810px){
+  .flexitem__desc,
+  .flexitem__hidden {
+   width: 50%
+ }
+ .flexitem__image {
+  display: none;
+}
+}
+
+.actuheading{
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1px 1px 3px grey;
+  
+}
+
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background: #2e4047;
+}
+
+.socialicons {
+  display: flex;
+  justify-content:space-around;
+
+}
+
+@media (max-width: 768px){
+  .date {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+
+  }
+}
+
+.mentions {
+  font-family: 'Pacifico', cursive;
+  display: flex;
+  justify-content:space-around;
+  font-size: 20px;
+
+}
+
+.flexitem__image:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
