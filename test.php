@@ -47,13 +47,10 @@
             <a class="nav-link" href="#films">Les Films</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="modal" href="#mentions" data-target="#mentions">Mentions légales</a><
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#actu">Actualités</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#reservation">Réserver!</a>
+            <a class="nav-link" href="#reservation">Réserver</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -372,6 +369,11 @@
                   <option>3</option>
                   <option>4</option>
                   <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
                 </select>
               </div>
               <div class="form-group">
@@ -562,9 +564,9 @@
                     <div class="row">  
                       <div class="col-md-12">
                        <div class="socialicons py-3">
-                        <a href="#" style="color:white"><i class="fab fa-facebook-f" style="font-size:36px"></i></a>
-                        <a href="#" style="color:white"><i class="fab fa-twitter" style="font-size:36px"></i></a>
-                        <a href="#" style="color:white"><i class="fab fa-instagram" style="font-size:36px"></i></a>
+                        <a href="#" class="social"><i class="fab fa-facebook-f" style="font-size:36px"></i></a>
+                        <a href="#" class="social"><i class="fab fa-twitter" style="font-size:36px"></i></a>
+                        <a href="#" class="social"><i class="fab fa-instagram" style="font-size:36px"></i></a>
                       </div>
                     </div>
                   </div>

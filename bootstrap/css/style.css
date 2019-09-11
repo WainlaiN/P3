@@ -35,6 +35,13 @@
   font-size: 18px;
 }
 
+.nav-item:hover {
+  background-color:#007bff;
+  color:white;
+  transition: all 0.9s ease;
+  opacity: 0.7;
+}
+
 .img-fluid {
 
   max-width: 100%;
@@ -43,6 +50,7 @@
 }
 
 .img-fluid:hover{
+  transition: all 0.4s ease;
   opacity: 0.7;
 }
 
@@ -73,7 +81,7 @@
   font-weight: 700;
   font-size: 15px;
   margin: 20px 0px 20px 0px;
-  box-shadow: 0 0 black;
+  
 }
 
 
@@ -112,14 +120,6 @@
 
 }
 
-
-#films .badge-pill .seance-badge {
-  background-color: #f0b65d;
-  border-color: #f0b65d;
-}
-
-
-
 .flexitem {
   width: 100%;
   display: flex;
@@ -129,9 +129,14 @@
   padding: 10px;
   align-items: center;
   justify-content: center;
-  
-  
 }
+
+.flexitem:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
 .flexitem__date {
   order: 1;
   width: auto;
@@ -146,17 +151,13 @@
 .flexitem__image {
   order: 3;
   padding: 5px;
+  transition: all 0.9s ease;
 }
-
-.flexitem__image:hover {
-  opacity: 0.7;
-}
-
 
 .flexitem__desc {
   order: 2;
   width: 50%;
-  padding: 5px;
+  padding-left: 10px;
   display: flex;
   flex-direction:column;
   align-content:center;
@@ -170,8 +171,7 @@
 }
 
 @media (max-width: 810px){
-  .flexitem__desc,
-  .flexitem__hidden {
+  .flexitem__desc {
    width: 50%
  }
  .flexitem__image {
@@ -187,9 +187,17 @@
 
 footer {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: center;
   background: #2e4047;
+ 
+}
+
+footer .social {
+  color:white;
+}
+
+footer .social:hover {
+  color:#007bff;
 }
 
 .socialicons {
@@ -215,9 +223,6 @@ footer {
 
 }
 
-.flexitem__image:hover {
-  opacity: 0.7;
-}
 
 
 
